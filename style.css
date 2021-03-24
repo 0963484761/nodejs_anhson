@@ -1,0 +1,91 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: Tahoma;
+}
+.container{
+	width: 980px;
+	margin: auto;
+}
+header{
+   background-color: #272f54;
+   height: 100px;
+}
+.logo {
+	text-align: center;
+	padding-top: 21px;
+}
+.menu{
+	background-color: #cb7802;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 35px;
+}
+.menu ul{
+	display: flex;
+	list-style: none;
+}
+.menu ul li{
+ padding: 0 15px; 
+}
+
+.menu ul li a{
+ text-decoration: none;
+ color: #fefbfb;
+ font-size: 12px;
+}
+.menu ul li a:hover{
+	text-decoration: underline;
+}
+
+form input{
+	width: 204px;
+	border: 2px solid #cccccc;
+	outline: none;
+}
+form button {
+	width: 95px;
+	border: 2px solid #cccccc;
+	outline: none;
+	cursor: pointer;
+	background-color: #272f54;
+	color: #fefbfb;
+	margin-left: 12px;
+}
+.banner {
+	padding-top: 9px;
+}
+ h2{
+	padding-top: 15px;
+	color: #272f54;
+	font-size: 20px;
+}
+.row{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 28px;
+}
+.col-4{
+	border: 1px solid #c2c2c2;	
+	padding: 14px 20px;
+	margin-top: 20px; 
+}
+.col-4 h3{
+	font-size: 16px;
+	color: #ad3f00;
+}
+.col-4 p{
+	font-size: 13px;
+}
+footer {
+	background-color:#272f54;
+	height: 50px;
+	margin-top:12px;
+}
+footer p {
+	color: #fff;
+	text-align: center;
+	padding-top: 15px;
+}
